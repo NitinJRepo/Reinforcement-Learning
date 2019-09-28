@@ -15,7 +15,6 @@ from gridWorldEnvironment import GridWorld
 class MCAgent:
     def __init__(self, env):
         self.env = env
-        self.no_of_iteration = 10
 
     def generate_random_policy(self):
         pi = dict()
